@@ -1,0 +1,31 @@
+@import "../quasar.variables";
+.toasted-container {
+	&.bottom-right {
+		bottom: 30px !important;
+		right: 30px !important;
+	}
+
+	&.top-right {
+		top: 50px !important;
+		right: 30px !important;
+	}
+}
+
+.toasted {
+	min-width: 150px;
+
+	.primary, &.toasted-primary {
+		font-weight: 600 !important;
+		font-size: 1.1em !important;
+
+		&.info {
+			background: $warning !important;
+		}
+	}
+
+	.material-icons {
+		font-size: 18px;
+		color: #fff;
+		font-weight: 800;
+	}
+}

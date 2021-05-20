@@ -1,0 +1,73 @@
+
+
+body{
+	overflow-y: scroll;
+	font-family: Roboto,sans-serif;
+	color: #888888;
+}
+
+
+h1, .h1{
+	font-size:2.3em;
+}
+
+h2, .h2{
+	font-size:1.7em;
+}
+
+h3, .h3{
+	font-size:1.5em;
+	font-weight: 300;
+}
+
+h4, .h4{
+	font-size:1.2em;
+	font-weight: 300;
+}
+
+h5, .h5{
+	font-size:1.1em;
+}
+
+h6, .h6{
+	font-size:0.8em;
+}
+
+h1,h2,h3,h4,h5,h6{
+	line-height: 1;
+	margin-top:0;
+	margin-bottom:20px;
+	font-weight: 600;
+}
+
+
+.q-btn--rounded{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.input-before-symbol{
+	width: 30px;
+	text-align: center;
+
+	&.--width-15{
+		width: 15px;
+	}
+}
+
+
+.font-0-75-rem{
+	font-size:0.75rem;
+}
+
+.q-field.padding{
+	.q-field__control{
+		padding:0 10px;
+	}
+}
+
+.q-field--dense {
+	.q-field__control{
+		height:50px;
+	}
+}
